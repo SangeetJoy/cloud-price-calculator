@@ -1,0 +1,87 @@
+.row-container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 11rem;
+}
+
+.image-container-1 {
+    background-image: url("../../assets/test2.svg");
+    background-size: contain;
+    width: 688px;
+    height: 397px;
+    margin-top: 2.4rem;
+    grid-column: span 4;
+    margin-left: 10rem;
+    }
+
+.image-container-2 {
+    background-image: url("../../assets/test3.svg");
+    background-size: contain;
+    width: 688px;
+    height: 397px;
+    margin-top: 2.4rem;
+    grid-column: span 4;
+    margin-left: 10rem;
+}
+.image-container-3 {
+    background-image: url("../../assets/test.svg");
+    background-size: contain;
+    width: 688px;
+    height: 397px;
+    margin-top: 2.4rem;
+    grid-column: span 4;
+    margin-left: 10rem;
+}
+
+.text-container {
+    grid-column: span 4;
+    margin-left: 18rem;
+}
+
+.main-text {
+    font-size: 48px;
+}
+.sub-text {
+    line-height: 1.625;
+}
+
+.price-cal-button-container {
+    margin-top: 2rem;
+}
+
+.price-cal-button-container .price-cal-button {
+    padding: 14px 30px;
+    font-size: 17px;
+    border-radius: 2pc;
+}
+
+/* .row-container-2 {
+    margin-top: 8rem;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+} */
+
+/* .image-box-2 {
+    background-image: url("../../assets/test3.svg");
+    background-size: contain;
+    width: 688px;
+    height: 397px;
+    margin-top: 2.4rem;
+    grid-column: span 4;
+    margin-left: 10rem;
+}
+
+.text-box-2 {
+    grid-column: span 4;
+    margin-left: 18rem;
+}
+
+.main-text-2 {
+    font-size: 48px;
+}
+.sub-text-2 {
+    line-height: 1.625;
+} */
