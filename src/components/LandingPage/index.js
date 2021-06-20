@@ -12,7 +12,7 @@ const rowData = [
     },
     {
         id: 2,
-        mainText: "Try our price calculator",
+        mainText: "Try our cloud calculator",
         subText: "Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.",
         imageClassName: "image-container-2",
         isButtonPresent: true
